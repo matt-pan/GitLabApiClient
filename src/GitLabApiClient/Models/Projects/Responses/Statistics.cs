@@ -5,7 +5,7 @@ namespace GitLabApiClient.Models.Projects.Responses
     public sealed class Statistics
     {
         [JsonProperty("job_artifacts_size")]
-        public int JobArtifactsSize { get; set; }
+        public long JobArtifactsSize { get; set; }
 
         [JsonProperty("repository_size")]
         public long RepositorySize { get; set; }
