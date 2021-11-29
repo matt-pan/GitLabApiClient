@@ -8,15 +8,15 @@ namespace GitLabApiClient.Models.Projects.Responses
         public int JobArtifactsSize { get; set; }
 
         [JsonProperty("repository_size")]
-        public int RepositorySize { get; set; }
+        public long RepositorySize { get; set; }
 
         [JsonProperty("commit_count")]
         public int CommitCount { get; set; }
 
         [JsonProperty("lfs_objects_size")]
-        public int LfsObjectsSize { get; set; }
+        public long LfsObjectsSize { get; set; }
 
         [JsonProperty("storage_size")]
-        public int StorageSize { get; set; }
+        public long StorageSize { get; set; }
     }
 }
